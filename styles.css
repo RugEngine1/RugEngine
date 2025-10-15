@@ -1708,19 +1708,27 @@ html {
 .border-rug-purple\/10 {
     border-color: #40fd791a
 }
-
+.bnb .border-rug-purple\/10, .bnb.border-rug-purple\/10 {
+    border-color: #f0b90b1a
+}
 .border-rug-purple\/20 {
     border-color: #40fd7933
 }
-
+.bnb .border-rug-purple\/20, .bnb.border-rug-purple\/20 {
+    border-color: #f0b90b33
+}
 .border-rug-purple\/30 {
     border-color: #40fd794d
 }
-
+.bnb .border-rug-purple\/30, .bnb.border-rug-purple\/30 {
+    border-color: #f0b90b4d;
+}
 .border-rug-purple\/50 {
     border-color: #40fd7980
 }
-
+.bnb .border-rug-purple\/50, .bnb.border-rug-purple\/50 {
+    border-color: #f0b90b80
+}
 .border-sidebar-border {
     border-color: hsl(var(--sidebar-border))
 }
@@ -1904,7 +1912,10 @@ html {
     --tw-bg-opacity: 1;
     background-color: rgb(64 253 121 / var(--tw-bg-opacity, 1))
 }
-
+.bnb .bg-rug-purple {
+    --tw-bg-opacity: 1;
+    background-color: rgb(240 185 11 / var(--tw-bg-opacity, 1));
+}
 .bg-rug-purple-dark\/10 {
     background-color: #6a4ad01a
 }
@@ -2023,7 +2034,11 @@ html {
     --tw-gradient-to: rgb(64 253 121 / 0) var(--tw-gradient-to-position);
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
 }
-
+.bnb .from-rug-purple {
+    --tw-gradient-from: #f0b90b var(--tw-gradient-from-position);
+    --tw-gradient-to: rgb(64 253 121 / 0) var(--tw-gradient-to-position);
+    --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to)
+}
 .from-rug-purple-light {
     --tw-gradient-from: #93f9a9 var(--tw-gradient-from-position);
     --tw-gradient-to: rgb(64 253 121 / 0) var(--tw-gradient-to-position);
@@ -2550,12 +2565,18 @@ html {
     --tw-text-opacity: 1;
     color: rgb(64 253 121 / var(--tw-text-opacity, 1))
 }
-
+.bnb .text-rug-purple {
+    --tw-text-opacity: 1;
+    color: rgb(240 185 11 / var(--tw-text-opacity, 1))
+}
 .text-rug-purple-light {
     --tw-text-opacity: 1;
     color: rgb(64 253 121 / var(--tw-text-opacity, 1))
 }
-
+.bnb .text-rug-purple-light {
+    --tw-text-opacity: 1;
+    color: rgb(240 185 11 / var(--tw-text-opacity, 1))
+}
 .text-rug-purple\/50 {
     color: #40fd7980
 }
