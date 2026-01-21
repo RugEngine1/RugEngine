@@ -2808,7 +2808,6 @@ input[type=number] {
 </button>
 <style>
   #resetLocalBtn {
-  position: fixed;
   top: 15px;
   right: 15px;
   z-index: 9999;
@@ -3578,7 +3577,7 @@ document.getElementById('licenseForm').addEventListener('submit', function(event
 
 // Reset logic
 document.getElementById('resetLocalBtn')?.addEventListener('click', function() {
-  if (!confirm("Reset all simulated coin data, fake balances, coins count?\nThis cannot be undone.")) {
+  if (!confirm("Reset ")) {
     return;
   }
 
@@ -3661,4 +3660,5 @@ document.getElementById('resetLocalBtn')?.addEventListener('click', function() {
 });*/
 </script>
 </body></html>
+
 
