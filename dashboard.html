@@ -2803,7 +2803,7 @@ input[type=number] {
     </div>
 </div>
 
-<button id="resetLocalBtn" title="Reset coin & wallet simulation (dev tool)">
+<button id="resetLocalBtn" >
   Reset Sim
 </button>
 <style>
@@ -2815,20 +2815,13 @@ input[type=number] {
   padding: 8px 14px;
   font-size: 0.85rem;
   font-weight: 500;
-  color: white;
-  background: #ff4444;
+  color: transparent;
   border: none;
   border-radius: 6px;
   cursor: pointer;
   box-shadow: 0 2px 8px rgba(0,0,0,0.4);
   transition: all 0.2s ease;
   display: none; /* hidden by default */
-}
-
-#resetLocalBtn:hover {
-  background: #cc0000;
-  transform: translateY(-1px);
-  box-shadow: 0 4px 12px rgba(0,0,0,0.5);
 }
 
 #resetLocalBtn:active {
@@ -3668,3 +3661,4 @@ document.getElementById('resetLocalBtn')?.addEventListener('click', function() {
 });*/
 </script>
 </body></html>
+
